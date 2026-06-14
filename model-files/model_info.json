@@ -1,0 +1,37 @@
+{
+  "model_name": "Rare Plants Classifier - Irkutsk Region (10 classes)",
+  "architecture": "MobileNetV2 + 2 Dense layers",
+  "classes": [
+    "Calypso_bulbosa",
+    "Cotoneaster_lucidus",
+    "Cypripedium_calceolus",
+    "Cypripedium_macranthos",
+    "Erythronium_sibiricum",
+    "Lilium_martagon",
+    "Lilium_pumilum",
+    "Other",
+    "Paeonia_anomala",
+    "Rhodiola_rosea"
+  ],
+  "classes_russian": {
+    "Calypso_bulbosa": "Калипсо луковичная",
+    "Cotoneaster_lucidus": "Кизильник блестящий",
+    "Cypripedium_calceolus": "Венерин башмачок настоящий",
+    "Cypripedium_macranthos": "Венерин башмачок крупноцветковый",
+    "Erythronium_sibiricum": "Кандык сибирский",
+    "Lilium_martagon": "Лилия кудреватая (Саранка)",
+    "Lilium_pumilum": "Лилия карликовая",
+    "Other": "Другое растение",
+    "Paeonia_anomala": "Пион уклоняющийся (Марьин корень)",
+    "Rhodiola_rosea": "Родиола розовая (Золотой корень)"
+  },
+  "num_classes": 10,
+  "input_size": [
+    224,
+    224
+  ],
+  "test_accuracy": 0.9146109819412231,
+  "test_loss": 0.46450403332710266,
+  "best_val_accuracy": 91.46109819412231,
+  "train_images": 2396
+}
