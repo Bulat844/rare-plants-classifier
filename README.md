@@ -125,11 +125,11 @@
 
 ### Матрица ошибок
 
-![Confusion Matrix](confusion_matrix.png)
+![Confusion Matrix](model-files/confusion_matrix.png)
 
 ### Графики обучения
 
-![Training History](training_history.png)
+![Training History](model-files/training_history.png)
 
 ---
 
